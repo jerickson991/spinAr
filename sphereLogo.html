@@ -9,16 +9,14 @@
   <body style="margin : 0px; overflow: hidden;">
     <a-scene embedded arjs>
       <a-marker preset="hiro">
-        <a-assets>
-        <img id="transpImage" src="http://www.icone-png.com/png/13/13081.png">
-    </a-assets>
-    
+       
+    <a-image="nine.png"></a-image>
         <a-entity
           position="0 0 0"
           scale="6 6 6"
           gltf-model="logoSphere.gltf"
                  animation="property: rotation; dur: 6000; to: 0 360 0; loop: true" 
-                  <a-image src="#transpImage"></a-image>
+                  
         ></a-entity>
         
       </a-marker>
