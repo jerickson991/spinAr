@@ -98,17 +98,17 @@
     "images": [
         {
             "name": "composited_baseColor",
-            "uri": "gatesVb_images/composited_baseColor.jpg",
+            "uri": "/gatesVb_images/composited_baseColor.jpg",
             "mimeType": "image/jpeg"
         },
         {
             "name": "composited_roughness_composited_metallic",
-            "uri": "gatesVb_images/composited_roughness_composited_metallic.png",
+            "uri": "/gatesVb_images/composited_roughness_composited_metallic.png",
             "mimeType": "image/png"
         },
         {
             "name": "cement_grout_brushed_normal",
-            "uri": "gatesVb_images/cement_grout_brushed_normal.png",
+            "uri": "/gatesVb_images/cement_grout_brushed_normal.png",
             "mimeType": "image/png"
         }
     ],
