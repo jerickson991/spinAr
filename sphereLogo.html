@@ -11,14 +11,11 @@
       
        <a-marker preset="pattern" type="pattern" url='https://raw.githubusercontent.com/jerickson991/spinAr/main/pattern-41.patt'>
     
-        <a-entity
-         
-          scale="1 1 1"
-          gltf-model="camLogo.gltf"
-          visible= "false"
-          animation="property: visible; from: false; to: true; dur: 1"
-                 
-        ></a-entity>
+        <a-entity gtlf-model="url('https://raw.githubusercontent.com/jerickson991/spinAr/main/camLogo.gltf')">
+          <a-animation attribute="material.opacity" dur="2000" from="1" to="0.10" direction="alternate" repeat="indefinite">
+            </a-animation>
+           
+         </a-entity>
          
         
           
