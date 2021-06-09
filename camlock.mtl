@@ -1,0 +1,19 @@
+newmtl Brass
+illum 7
+Kd 0 0 0
+adobe_interior_color 1 1 1
+Ni 1.6
+adobe_density 0
+Tr 0
+d 1
+Ka 0 0 0
+Ke 0 0 0
+map_Pm camlock/Brass_metallic.jpg
+adobe_translucence 0
+map_Pr camlock/Brass_roughness.jpg
+Ns 16
+Ks 1 1 1
+adobe_glow 0
+map_Kd camlock/Brass_baseColor.jpg
+disp camlock/Brass_height.jpg
+map_d camlock/Brass_opacity.jpg
