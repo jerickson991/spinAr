@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js">
+    	
+    </script>
+  </head>
+  <body style="margin : 0px; overflow: hidden;">
+    <a-scene embedded arjs="sourceType: webcam">
+      <a-marker preset="hiro">
+         
+                  <a-entity 
+                 scale= "-0.5 -0.5 -0.5"
+                 position="0 1 0"
+                 gltf-model="camlock.glb"
+                 animation = "property: rotation; to: 0 360 0; dur: 5000; easing:linear"
+                 animation__2 = "property: position; dur: 1000; delay: 6000; from: 0 1 0; to: 0 10 0; easing:linear"
+                 animation__3 = "property: opacity; dur: 1000; delay:6000; from: 1; to: 0"
+                 >
+
+                   
+        </a-entity>
+                  
+              
+                 
+       
+         
+        
+          
+        
+                 
+       
+      </a-marker>
+      <a-entity camera></a-entity>
+    </a-scene>
+  </body>
+</html>
