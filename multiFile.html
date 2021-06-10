@@ -2,39 +2,27 @@
 <html>
   <head>
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
-    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js">
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+
     	
-    </script>
+    
   </head>
   <body style="margin : 0px; overflow: hidden;">
     <a-scene embedded arjs="sourceType: webcam">
       <a-marker preset="hiro">
          
                   <a-entity 
-                 scale= "0.8 0.8 0.8"
+                 scale= "2 2 2"
                  position="0 1 0"
-                 rotation="180 0 0"
-                 gltf-model="stiffBack.glb"
-                 animation = "property: rotation; to: 0 360 0;dur: 8000;delay: 3000; easing:linear"
-                  animation__2 = "property: visible; dur: 1000; delay: 11000; from: true; to: false;"
-                 animation__3 = "property: position; dur: 2000; delay: 8000; from: 0 1 0; to: 0 10 0; easing:linear"
-                 >
-
-                   
-        </a-entity>
-        <a-entity 
-                 scale= "1 1 1"
-                 position="0 1 0"
-                 visible = "false"
-                 gltf-model="camlock.glb"
-                 animation = "property:visible; dur:1000; delay:12000 from:false; to: true"
-                 animation__2 = "property: rotation; to: 0 360 0; dur: 5000; delay:13000; easing:linear"
-                 animation__3 = "property: position; dur: 1000; delay: 18000; from: 0 1 0; to: 0 10 0; easing:linear"
                  
+                 gltf-model="cornerThing.glb"
+                 animation-mixer
                  >
 
                    
         </a-entity>
+        
                   
               
                  
